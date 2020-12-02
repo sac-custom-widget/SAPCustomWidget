@@ -7,12 +7,18 @@
 				<table>
 					<tr>
 						<td>Color</td>
-						<td><input id="sps_color" type="text" size="40" maxlength="40"></td>
+						<td><input id="sps_color" type="text" size="10" maxlength="10"></td>
 					</tr>
 				</table>
-				<input type="submit" style="display:none;">
+				<input type="submit">
 			</fieldset>
 		</form>
+		<style>
+		:host {
+			display: block;
+			padding: 1em 1em 1em 1em;
+		}
+		</style>
 	`;
 
 	class BoxSps extends HTMLElement {
@@ -43,5 +49,5 @@
 		}
 	}
 
-customElements.define("com-demo-box-sps", BoxSps);
+	customElements.define("com-demo-box-sps", BoxSps);
 })();
