@@ -10,7 +10,7 @@
 						<td><input id="bps_color" type="text" size="10" maxlength="10"></td>
 					</tr>
 				</table>
-				<input type="submit" style="display:none;">
+				<input type="submit">
 			</fieldset>
 		</form>
 		<style>
